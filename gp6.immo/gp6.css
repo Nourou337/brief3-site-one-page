@@ -1,0 +1,214 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding: 35px, 5px;
+    background-color: rgb(67, 40, 5);
+    position: fixed;
+}
+body {
+        background-attachment: fixed;       
+}
+nav ul{
+        display: flex;
+}
+nav ul li{
+    padding: 8px 15px;
+     border-radius: 10px;
+    transition: 0.2s ease-in;
+    
+}
+nav ul li a{
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  text-decoration: none;
+  margin-right: 15px;
+  top: 15px;
+  position: relative;
+}
+.logo{
+    margin-left: 90px;
+    bottom: 25px;
+    position: relative;
+}
+#home{
+    background-image: url(img1.jpg);
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+#about{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: rgba(214, 134, 85, 0.85);
+    background-size: cover;
+    height: 550px;
+    margin-top: 30px;
+    padding-top: 100px;
+}
+.propos{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.para{
+    
+   margin: 80px 30px 0 0;
+    font-size: 30px;
+}
+#partener{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: rgba(214, 134, 85, 0.85);
+    background-size: cover;
+    height: 505px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.collabor{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.paragraf{ 
+    margin: 40px 50px 0 0;
+     font-size: 20px;
+}
+#gal{
+    font-size: 1.2rem;
+    line-height: 100px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.ga-gir{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+#Galerie{
+    background-color: palegoldenrod;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 100px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    margin: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 2%;
+    margin-left: 8%;
+
+}
+#user{
+    margin: 0px auto;
+    padding: 0px;
+    font-family: "Open Sans" sans-serif;
+    border: 2px solid wheat;
+    width: 25%;
+    text-align: center;
+    margin-right: 50%;
+    height: 75%;
+    margin-top: 0%;
+    margin-left: 20%;
+    box-shadow: 0 0 10px 10px rgb(1, 82, 114);
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+   
+    width: 250px;
+}
+.input1{
+    width: 200px;
+    height: 25px;
+    margin: 15px;
+    font-size: 15px;
+    
+}
+.input2{
+    width: 200px;
+    height: 60px;
+    margin: 15px;
+    font-size: 15px;
+    
+}
+#submit{
+    background-color: blue;
+    color: white;
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+}
+body{
+    background-color: aliceblue;
+}
+footer{
+    background-color: black;
+    height: 110px;
+    color: white;
+    text-align: center;
+}
+#submit{
+    background-color: blue;
+    color: white;
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+}
+body{
+    background-color: aliceblue;
+}
+.img{
+    margin-left: -1000px;
+    margin-top: -200px;
+
+}
+.icon{
+    display: flex;
+    width: 100%;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 5px;
+}
+#contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 50px;
+    height: 450px;
+    
+}
+#contacts {
+    text-align: center;
+}
+
+.cnt{
+    position: relative;
+    margin-right: 40px;
+    font-size: 20px;
+    margin: 0px 30px 0 0;
+    height: 10px;
+    
+}
+.quote{
+   
+    background: rgb(67, 40, 5);
+    height: 70px;
+}
+.fin{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
